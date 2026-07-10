@@ -1,0 +1,72 @@
+import requests
+from bs4 import BeautifulSoup
+
+left_sites = [
+    "https://www.thenation.com/",
+    "https://www.motherjones.com/",
+    "https://jacobin.com/",
+    "https://www.commondreams.org/",
+    "https://www.alternet.org/",
+    "https://www.theatlantic.com/",
+    "https://www.thedailybeast.com/",
+    "https://www.democracynow.org/",
+    "https://www.ms.now/",
+    "https://www.cnn.com/",
+    "https://www.npr.org/",
+    "https://www.nytimes.com/",
+    "https://www.theguardian.com",
+    "https://www.lemonde.fr",
+    "https://www.haaretz.com",
+    "https://www.elpais.com",
+    "https://www.thestar.com",
+    "https://www.spiegel.de",
+    "https://www.smh.com.au",
+    "https://www.scmp.com"
+]
+
+right_sites = [
+    "https://foxnews.com",
+    "https://breitbart.com",
+    "https://dailywire.com",
+    "https://theepochtimes.com",
+    "https://nationalreview.com",
+    "https://thefederalist.com",
+    "https://washingtonexaminer.com",
+    "https://washingtontimes.com",
+    "https://newsmax.com",
+    "https://spectator.org",
+    "https://theamericanconservative.com",
+    "https://townhall.com",
+    "https://telegraph.co.uk",
+    "https://thetimes.com",
+    "https://nationalpost.com",
+    "https://skynews.com.au",
+    "https://jpost.com",
+    "https://welt.de",
+    "https://theaustralian.com.au",
+    "https://dailymail.co.uk"
+]
+
+center_sites = [
+    "https://reuters.com",
+    "https://apnews.com",
+    "https://bbc.com",
+    "https://npr.org",
+    "https://bloomberg.com",
+    "https://wsj.com",
+    "https://c-span.org",
+    "https://thehill.com",
+    "https://christiancience-monitor.com",
+    "https://newsweek.com",
+    "https://axios.com",
+    "https://cnbc.com",
+    "https://afp.com",
+    "https://dw.com",
+    "https://ft.com",
+    "https://economist.com",
+    "https://aljazeera.com",
+    "https://france24.com",
+    "https://nikkei.com",
+    "https://cbc.ca",
+    "https://abc.net.au"
+]
