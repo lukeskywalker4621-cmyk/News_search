@@ -1,6 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
-
 left_sites = [
     "https://www.thenation.com/",
     "https://www.motherjones.com/",
